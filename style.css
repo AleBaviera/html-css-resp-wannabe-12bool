@@ -28,7 +28,7 @@
 #steps .row > [class*='col-'],
 #steps .row > [class*='col-']{
   float: left;
-  width: 33%;
+  
 }
 
 #steps{
