@@ -24,11 +24,10 @@
   text-align: center;
 }
 /* BLOCCO STEPS */
-#steps .row > [class*='col-'],
-#steps .row > [class*='col-'],
+
 #steps .row > [class*='col-']{
   float: left;
-  
+
 }
 
 #steps{
@@ -40,10 +39,8 @@
   text-align: center;
 }
 
-#why .row > .first,
-#why .row > .second,
-#why .row > .third {
-  width: 100%;
+#why .row > [class*='col-'] {
+
   margin-top: 80px;
 }
 
