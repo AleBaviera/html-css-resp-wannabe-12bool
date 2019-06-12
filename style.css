@@ -1,0 +1,85 @@
+.row {
+  /* width: 100%; */
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; */
+}
+
+/* BLOCCO LEZIONI */
+/* #lezioni .row > [class*='col-'],{
+  float: left;
+} */
+
+/* #lezioni .row img {
+  /* per centrare orizzontalmente */
+  /* display: block;
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+#lezioni {
+  text-align: center;
+}
+#lezioni h1{
+  text-align: center;
+}
+/* BLOCCO STEPS */
+#steps .row > [class*='col-'],
+#steps .row > [class*='col-'],
+#steps .row > [class*='col-']{
+  float: left;
+  width: 33%;
+}
+
+#steps{
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row > .first,
+#why .row > .second,
+#why .row > .third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color:#428bca;
+  border-radius:50%;
+  padding:30px
+}
+
+/* COMMON */
+
+[background="grey"]{
+  background-color: #f9f9f9;
+}
+
+img{
+  height: 200px;
+}
+
+.clear {
+  clear:both;
+}
+
+/* .container{
+  background-color: pink;
+} */
+
+/* [class*='col-']{
+  height: 100px;
+  border: 1px solid black;
+}
+
+.cambio{
+  background-color: orange;
+}
+
+.cambio [class*='col-']{
+  border-color: white;
+} */
